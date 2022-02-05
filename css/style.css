@@ -10,7 +10,7 @@
 }
 
 header .row {
-    background-image: url(femmes\ et\ numérique.jpg);
+    background-image: url(../img/femmes.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,25 +23,12 @@ header .formtransparente {
     min-height: 70vh;
 }
 
-
-/* header h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-} */
-
 header h2 {
     font-family: 'Dancing Script', cursive;
     margin-bottom: 50px;
     color: #999;
+    font-weight: 900;
 }
-
-
-/* #presentation .media  span {
-     color: #cbc9d4;
-     font-size: 3rem;
-     width: 3rem;
-     text-align: center;
- } */
 
 #presentation .media {
     padding: .5rem 1rem;
@@ -64,7 +51,7 @@ header h2 {
 
 .connectées {
     min-height: calc(100vh - 50px);
-    background-image: url(m.jpg);
+    background-image: url(../img/m.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -86,7 +73,7 @@ header h2 {
 }
 
 #contact {
-    background-image: url(hackeuses.png);
+    background-image: url(../img/hackeuses.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
