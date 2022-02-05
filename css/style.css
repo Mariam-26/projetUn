@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand img {
+    max-height: 32px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+header .row {
+    background-image: url(femmes\ et\ numérique.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 70vh;
+    clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 90%);
+}
+
+header .formtransparente {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 70vh;
+}
+
+
+/* header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+} */
+
+header h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 50px;
+    color: #999;
+}
+
+
+/* #presentation .media  span {
+     color: #cbc9d4;
+     font-size: 3rem;
+     width: 3rem;
+     text-align: center;
+ } */
+
+#presentation .media {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+
+#presentation .media:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.colonne1 {
+    box-shadow: 4px 0 5px rgba(128, 128, 128, 0.5);
+}
+
+.readMore {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.connectées {
+    min-height: calc(100vh - 50px);
+    background-image: url(m.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.avisPolitic {
+    min-height: calc(100vh - 50px);
+    background-color: #d3dae4;
+}
+
+.avisPolitic span {
+    font-size: 5rem;
+    color: #17a2b8;
+}
+
+.avisPolitic h5 {
+    font-size: 2rem;
+    color: #888;
+}
+
+#contact {
+    background-image: url(hackeuses.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: calc(100vh - 50px);
+}
+
+.formContact {
+    background-color: rgba(255, 255, 255, .7);
+    padding: 2rem 1rem;
+}
+
+#contact .row {
+    min-height: calc(100vh - 50px);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    color: #999;
+    font-size: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: #3fa9d9;
+}
+
+.fa-twitter {
+    color: #007cba;
+}
+
+.fa-youtube {
+    color: #f00;
+}
