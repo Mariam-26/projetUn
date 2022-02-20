@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body {
+    background: url(../img/concrete-texture.png);
+}
+
 .navbar-brand img {
     max-height: 32px;
     font-size: 80px;
@@ -10,8 +14,9 @@
 }
 
 header .row {
-    background-image: url(../img/femmes.jpg);
+    background-image: url(../img/projet1.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 70vh;
@@ -30,11 +35,16 @@ header h2 {
     font-weight: 900;
 }
 
+.menu:hover {
+    color: #d4af95;
+}
+
 #presentation .media {
     padding: .5rem 1rem;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 5px;
     transition: all .3s ease-in-out;
+    background-color: #d4af95;
 }
 
 #presentation .media:hover {
@@ -51,7 +61,8 @@ header h2 {
 
 .connectées {
     min-height: calc(100vh - 50px);
-    background-image: url(../img/m.jpg);
+    background-image: url(../img/woman.jpg);
+    background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -64,7 +75,7 @@ header h2 {
 
 .avisPolitic span {
     font-size: 5rem;
-    color: #17a2b8;
+    color: #00a590;
 }
 
 .avisPolitic h5 {
@@ -87,6 +98,10 @@ header h2 {
 
 #contact .row {
     min-height: calc(100vh - 50px);
+}
+
+.message {
+    resize: none;
 }
 
 footer {
