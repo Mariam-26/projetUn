@@ -1,16 +1,52 @@
+/* STYLE général */
+
 * {
     margin: 0px;
     padding: 0px;
+    transition: all ease-in-out 1s;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     background: url(../img/concrete-texture.png);
 }
 
+
+/* FIN STYLE général */
+
+
+/* STYLE pour HEADER */
+
 .navbar-brand img {
     max-height: 32px;
     font-size: 80px;
     font-weight: bold;
+    margin: 20px 0px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #002754 !important;
+}
+
+h1:hover {
+    color: #d4af95 !important;
+}
+
+.menu {
+    font-size: 1.5rem;
+}
+
+.menu ul li a {
+    margin-right: 40px;
+    color: #002754!important;
+}
+
+.menu ul li a:hover {
+    color: #d4af95 !important;
 }
 
 header .row {
@@ -28,11 +64,15 @@ header .formtransparente {
     min-height: 70vh;
 }
 
+
+/* FIN STYLE pour HEADER */
+
+
+/* STYLE MAIN */
+
 main h2 {
-    /* font-family: 'Dancing Script', cursive; */
     margin-bottom: 50px;
     color: #002754 !important;
-    /* color: #999; */
     font-weight: 900;
 }
 
@@ -54,6 +94,10 @@ main h2 {
 
 .colonne1 {
     box-shadow: 4px 0 5px rgba(128, 128, 128, 0.5);
+}
+
+.colonne1 p {
+    margin: 60px;
 }
 
 .readMore {
@@ -105,6 +149,12 @@ main h2 {
     resize: none;
 }
 
+
+/* FIN STYLE MAIN */
+
+
+/* STYLE FOOTER */
+
 footer {
     background-color: rgba(0, 0, 0, .8);
     color: #999;
@@ -134,3 +184,6 @@ footer a:hover {
 .fa-youtube {
     color: #f00;
 }
+
+
+/* FIN STYLE FOOTER */
